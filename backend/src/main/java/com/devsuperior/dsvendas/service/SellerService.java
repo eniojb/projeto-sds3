@@ -1,4 +1,4 @@
-package com.devsuperior.dsvendas.serviice;
+package com.devsuperior.dsvendas.service;
 
 import java.util.List;
 import java.util.stream.Collectors;
