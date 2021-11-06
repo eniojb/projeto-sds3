@@ -14,15 +14,11 @@ public class SaleSuccessDTO implements Serializable {
 	public SaleSuccessDTO() {
 	}
 
-
-
 	public SaleSuccessDTO(Seller saller, Long visited, Long deals) {
 		sallerName = saller.getName();
 		this.visited = visited;
 		this.deals = deals;
 	}
-
-
 
 	public String getSallerName() {
 		return sallerName;
@@ -32,29 +28,20 @@ public class SaleSuccessDTO implements Serializable {
 		this.sallerName = sallerName;
 	}
 
-
-
 	public Long getVisited() {
 		return visited;
 	}
-
-
 
 	public void setVisited(Long visited) {
 		this.visited = visited;
 	}
 
-
-
 	public Long getDeals() {
 		return deals;
 	}
 
-
-
 	public void setDeals(Long deals) {
 		this.deals = deals;
 	}
-
 
 }
